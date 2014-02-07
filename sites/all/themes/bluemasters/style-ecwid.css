@@ -1,0 +1,675 @@
+.ecwid {
+  color:#78654a;
+}
+
+/*-------------------------------------------------------------*/
+/*-------------------- Bag Widget classes ---------------------*/
+/*-------------------------------------------------------------*/
+
+div.ecwid-minicart {
+  background:transparent url(icons_red/minicart.png)
+}
+
+div.ecwid-minicart-caption {
+  color: #413124;
+}
+
+div.ecwid-minicart-link * {
+  color:#1C8CB5;
+}
+
+.ecwid-minicart-mini-count {
+  color: #1C8CB5;
+  font: 13px tahoma,geneva,verdana,sans-serif;
+}
+
+span.ecwid-minicart-label-text {
+  color:#7A8090;
+}
+
+/*-------------------------------------------------------------*/
+/*---- Categories (horizontal and vertical) Widget classes ----*/
+/*-------------------------------------------------------------*/
+
+/* First level category links */
+span.ecwid-categories-category {
+  color: #413124;
+}
+
+/* Current category links */
+div.ecwid-categoriesMenuBar td.gwt-MenuItem-selected span.ecwid-categories-category,
+div.ecwid-categoriesMenuBar td.gwt-MenuItem-current span.ecwid-categories-category,
+td.ecwid-categories-vertical-table-cell-selected span.ecwid-categories-category,
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected span.ecwid-categories-category {
+  color: #9f3b3f;
+}
+
+/*-------------------------------------------------------------*/
+/*------------- Product Browser Widget classes ----------------*/
+/*-------------------------------------------------------------*/
+
+.ecwid a, .ecwid a:active, .ecwid a:visited {
+  color:#1C8CB5;
+}
+
+.ecwid span.gwt-InlineHTML, .ecwid span.gwt-InlineLabel {
+  color: #78654a;
+}
+
+.ecwid div.gwt-Label {
+  color: #78654a;
+}
+
+div.ecwid-ProductBrowser-auth-logged span.gwt-InlineLabel {
+  color: #1C8CB5;
+}
+
+div.ecwid-productBrowser-categoryPath a,
+div.ecwid-productBrowser-categoryPath a:active,
+div.ecwid-productBrowser-categoryPath a:visited {
+  color:#1C8CB5;
+}
+
+div.ecwid-productBrowser-categoryPath span.gwt-InlineLabel {
+  color:#7A8090;
+}
+
+div.ecwid-productBrowser-productNameLink a,
+div.ecwid-productBrowser-productNameLink a:active,
+div.ecwid-productBrowser-productNameLink a:visited {
+  color:#413124;
+}
+
+div.ecwid-productBrowser-sku,
+div.ecwid-results-topPanel div.ecwid-results-topPanel-itemsCountLabel,
+div.ecwid-productBrowser-categoryPath {
+  color:#78654a;
+}
+
+div.ecwid-productBrowser-details-optionPanel label.ecwid-fieldLabel,
+div.ecwid-productBrowser-details-qtyLabel,
+div.ecwid-productBrowser-details-qtyAvailInfo,
+span.ecwid-productBrowser-details-optionRadioButton label,
+select.ecwid-productBrowser-details-optionSelectBox,
+input.ecwid-productBrowser-details-optionDateField,
+input.ecwid-productBrowser-details-optionTextField,
+textarea.ecwid-productBrowser-details-optionTextArea {
+  color: #433b35;
+}
+
+.ecwid-productBrowser-details-optionUploadFiles-filesize{
+  color:#78654a;
+}
+
+div.ecwid-productBrowser-details-optionUploadFiles-removeButton {
+  background: transparent url(icons_red/remove_file.gif) no-repeat center center;
+}
+
+div.ecwid-productBrowser-cart-hint {
+  color: #c4c4c4;
+}
+
+form.ecwid-uploadPopup-mainPanel {
+  color: #666666;
+  font: 30px georgia,"times new roman",times,serif;
+}
+table.ecwid-uploadPopup-mainPanel-fileListPanel {
+  background-color: #f0ead8;
+  color: #433B35;
+  font-family: tahoma,geneva,verdana,sans-serif;
+}
+button.ecwid-uploadPopup-addButton {
+  background: url("icons_red/boxAdd.gif") no-repeat scroll center center transparent;
+}
+button.ecwid-uploadPopup-addButton-disabled {
+  background: url("icons_red/boxAddDisabled.gif") no-repeat scroll center center transparent;
+}
+button.ecwid-uploadPopup-deleteButton {
+  background: url("icons_red/boxDelete.gif") no-repeat scroll center center transparent;
+}
+button.ecwid-uploadPopup-deleteButton-disabled {
+  background: url("icons_red/boxDeleteDisabled.gif") no-repeat scroll center center transparent;
+}
+
+div.ecwid-results-topPanel div.ecwid-results-topPanel-viewAsPanel-link {
+  color:#1C8CB5;
+}
+
+div.ecwid-results-topPanel div.ecwid-results-topPanel-viewAsPanel-current {
+  color:#413124;
+}
+
+span.ecwid-productBrowser-details-taxValue,
+div.ecwid-productBrowser-price {
+  color:#9f3b3f;
+}
+
+div.ecwid-productBrowser-head {
+  color:#413124;
+}
+
+div.ecwid-productBrowser-backgroundedPanel {
+  background-color:#f0ead8;
+}
+
+div.ecwid-Checkout-QIWI-payment-logo {
+  background: url(icons_red/QIWIlogo_small.png) no-repeat transparent;
+  width: 86px;
+  height: 41px;
+}
+
+div.ecwid-Checkout-QIWI-phone-icon {
+  background: url(icons_red/phone.png) no-repeat transparent;
+  width: 23px;
+  height: 34px;
+}
+
+div.ecwid-Checkout-QIWI-plus-seven {
+  color: #1C8CB5;
+  font: 18px bold helvetica, arial, verdana, sans-serif;
+}
+
+div.ecwid-form,
+td.ecwid-productBrowser-cart-emptyCartPanel-td,
+div.ecwid-Orders-EmptyList,
+td.ecwid-Checkout-orderFailed-td {
+  background-color:#f0ead8;
+}
+
+div.ecwid-Checkout-blockTitle,
+table.ecwid-Checkout-blockTitle div.gwt-Label,
+table.ecwid-Checkout-blockTitle div.gwt-HTML  {
+  color:#413124;
+}
+
+div.ecwid-CheckoutCollapsableWidget-expandable div.ecwid-Checkout-blockTitle span.ecwid-Checkout-blockTitle-text {
+  border-bottom-color: #413124;
+}
+div.ecwid-CheckoutCollapsableWidget div.ecwid-Checkout-blockTitle span.ecwid-collapseToggleButton-expanded {
+  background: url(icons_red/checkout_arrow_close.png) no-repeat;
+}
+div.ecwid-CheckoutCollapsableWidget div.ecwid-Checkout-blockTitle span.ecwid-collapseToggleButton-collapsed {
+  background: url(icons_red/checkout_arrow_open.png) no-repeat;
+}
+
+button.gwt-Button {
+  background:transparent url(icons_red/back_normal.gif)  repeat-x;
+  color:#000000;
+  border: 1px solid #878479;
+}
+button.gwt-Button:active {
+  background: transparent url(icons_red/back_on.gif) repeat-x;
+  color:#ffffff;
+  border: 1px solid #878479;
+}
+
+button.ecwid-AccentedButton, .ecwid-supports-touch button.ecwid-AccentedButton,
+.ecwid-supports-touch button.ecwid-AccentedButton:hover {
+  background-color: #c19349;
+
+  background-image:
+    -moz-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -moz-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -moz-linear-gradient(bottom, rgb(197, 158, 99) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgba(211, 174, 115, .8) 73%, rgba(215, 180, 126, .8) 100%)
+;
+  background-image:
+    -webkit-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -webkit-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -webkit-linear-gradient(bottom, rgb(197, 158, 99) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgba(211, 174, 115, .8) 73%, rgba(215, 180, 126, .8) 100%)
+;
+  background-image:
+    -o-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -o-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -o-linear-gradient(bottom, rgb(197, 158, 99) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgba(211, 174, 115, .8) 73%, rgba(215, 180, 126, .8) 100%)
+;
+  background-image:
+    -ms-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -ms-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -ms-linear-gradient(bottom, rgb(197, 158, 99) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgba(211, 174, 115, .8) 73%, rgba(215, 180, 126, .8) 100%)
+;
+  background-image:
+    linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    linear-gradient(bottom, rgb(197, 158, 99) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgba(211, 174, 115, .8) 73%, rgba(215, 180, 126, .8) 100%)
+;
+
+  box-shadow: 0 0 0 1px rgba(164, 147, 113, .7), 0 1px 0 rgb(227, 203, 164) inset;
+}
+
+button.ecwid-AccentedButton:hover {
+  background-image:
+    -moz-radial-gradient(50% 100%, circle, rgb(214, 184, 80), rgba(214, 184, 80,.5), rgba(214, 184, 80,0) ),
+    -moz-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -moz-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -moz-linear-gradient(bottom, rgb(199, 160, 101) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgb(211, 174, 115) 73%, rgb(215, 180, 126) 100%)
+;
+  background-image:
+    -webkit-radial-gradient(50% 100%, circle, rgb(214, 184, 80), rgba(214, 184, 80,.5), rgba(214, 184, 80,0) ),
+    -webkit-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -webkit-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -webkit-linear-gradient(bottom, rgb(199, 160, 101) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgb(211, 174, 115) 73%, rgb(215, 180, 126) 100%)
+;
+  background-image:
+    -o-radial-gradient(50% 100%, circle, rgb(214, 184, 80), rgba(214, 184, 80,.5), rgba(214, 184, 80,0) ),
+    -o-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -o-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -o-linear-gradient(bottom, rgb(199, 160, 101) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgb(211, 174, 115) 73%, rgb(215, 180, 126) 100%)
+;
+  background-image:
+    -ms-radial-gradient(50% 100%, circle, rgb(214, 184, 80), rgba(214, 184, 80,.5), rgba(214, 184, 80,0) ),
+    -ms-linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -ms-linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    -ms-linear-gradient(bottom, rgb(199, 160, 101) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgb(211, 174, 115) 73%, rgb(215, 180, 126) 100%)
+;
+  background-image:
+    radial-gradient(50% 100%, circle, rgb(214, 184, 80), rgba(214, 184, 80,.5), rgba(214, 184, 80,0) ),
+    linear-gradient(left, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    linear-gradient(right, rgb(193, 147, 73) 0%, rgb(193, 147, 73) 4%, rgba(193, 147, 73, 0) 13%),
+    linear-gradient(bottom, rgb(199, 160, 101) 0%,  rgb(187, 137, 58) 17%, rgb(188, 139, 58) 18%, rgb(200, 158, 90) 73%, rgb(211, 174, 115) 73%, rgb(215, 180, 126) 100%)
+;
+
+  box-shadow: 0 0 0 1px rgba(164, 147, 113, .7), 0 1px 0 rgb(233, 213, 182) inset;
+}
+
+button.ecwid-AccentedButton-ie9minus {
+  background-color: #c19349;
+  /* for IE 9 */
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxNTAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgo8c3RvcCBzdG9wLWNvbG9yPSIjQzU5RTYzIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjQkI4OTNBIiBvZmZzZXQ9IjAuMTciLz48c3RvcCBzdG9wLWNvbG9yPSIjQkM4QjNBIiBvZmZzZXQ9IjAuMTgiLz48c3RvcCBzdG9wLWNvbG9yPSIjQzg5RTVBIiBvZmZzZXQ9IjAuNzMiLz48c3RvcCBzdG9wLWNvbG9yPSIjRDNBRTczIiBvZmZzZXQ9IjAuNzMiLz48c3RvcCBzdG9wLWNvbG9yPSIjRDdCNDdFIiBvZmZzZXQ9IjEiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnMTUwKSIgLz4KPC9zdmc+);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd6b37c', endColorstr='#ffb98634',GradientType=0);
+}
+
+button.ecwid-AccentedButton-ie9minus:hover {
+  /* for IE 9 */
+  background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImcxNTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgo8c3RvcCBzdG9wLWNvbG9yPSIjREJDMzg5IiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjRDlCRTZCIiBvZmZzZXQ9IjAuMDUiLz48c3RvcCBzdG9wLWNvbG9yPSIjQ0JBNDQ0IiBvZmZzZXQ9IjAuMTgiLz48c3RvcCBzdG9wLWNvbG9yPSIjQ0JBNDQ0IiBvZmZzZXQ9IjAuNzMiLz48c3RvcCBzdG9wLWNvbG9yPSIjQ0JBNDQ0IiBvZmZzZXQ9IjAuNzMiLz48c3RvcCBzdG9wLWNvbG9yPSIjRTBDNjk1IiBvZmZzZXQ9IjAuNzMiLz48c3RvcCBzdG9wLWNvbG9yPSIjRTBDNTlBIiBvZmZzZXQ9IjEiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnMTUzKSIgLz4KPC9zdmc+);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbbc8b', endColorstr='#ffbd8c37',GradientType=0);
+}
+
+div.ecwid-AddToBagButton-up, div.ecwid-AddToBagButton-up-hovering,
+div.ecwid-AddToBagButton-down, div.ecwid-AddToBagButton-down-hovering {
+  background-image: url(icons_red/add_to_bag.png);
+}
+div.ecwid-AddToBagButton-ie6-up, div.ecwid-AddToBagButton-ie6-up-hovering,
+div.ecwid-AddToBagButton-ie6-down, div.ecwid-AddToBagButton-ie6-down-hovering {
+  background-image: url(icons_red/add_to_bag.gif);
+}
+
+div.ecwid-ContinueShoppingButton-up, div.ecwid-ContinueShoppingButton-up-hovering,
+div.ecwid-ContinueShoppingButton-down, div.ecwid-ContinueShoppingButton-down-hovering {
+  background-image: url(icons_red/continue_shopping.png);
+}
+div.ecwid-ContinueShoppingButton-ie6-up, div.ecwid-ContinueShoppingButton-ie6-up-hovering,
+div.ecwid-ContinueShoppingButton-ie6-down, div.ecwid-ContinueShoppingButton-ie6-down-hovering {
+  background-image: url(icons_red/continue_shopping.gif);
+}
+
+div.ecwid-productBrowser-cart-checkoutButton-up, div.ecwid-productBrowser-cart-checkoutButton-up-hovering,
+div.ecwid-productBrowser-cart-checkoutButton-down, div.ecwid-productBrowser-cart-checkoutButton-down-hovering {
+  background-image: url(icons_red/checkout.png);
+}
+div.ecwid-productBrowser-cart-checkoutButton-ie6-up, div.ecwid-productBrowser-cart-checkoutButton-ie6-up-hovering,
+div.ecwid-productBrowser-cart-checkoutButton-ie6-down, div.ecwid-productBrowser-cart-checkoutButton-ie6-down-hovering {
+  background-image: url(icons_red/checkout.gif);
+}
+
+div.ecwid-Checkout-placeOrderButton-up, div.ecwid-Checkout-placeOrderButton-up-hovering,
+div.ecwid-Checkout-placeOrderButton-down, div.ecwid-Checkout-placeOrderButton-down-hovering {
+  background-image: url(icons_red/place_order.png);
+}
+div.ecwid-Checkout-placeOrderButton-ie6-up, div.ecwid-Checkout-placeOrderButton-ie6-up-hovering,
+div.ecwid-Checkout-placeOrderButton-ie6-down, div.ecwid-Checkout-placeOrderButton-ie6-down-hovering {
+  background-image: url(icons_red/place_order.gif);
+}
+
+div.ecwid-productBrowser-details-inTheBag {
+  background:transparent url(icons_red/bag.png) no-repeat scroll left center;
+}
+
+div.ecwid-productBrowser-details-inTheBag div {
+  color:#826432;
+}
+
+div.ecwid-productBrowser-productsGrid-productTopFragment-inTheBag div.ecwid-productBrowser-productsGrid-inTheBagTick,
+div.ecwid-productBrowser-productsList-inTheBagTick,
+div.ecwid-productBrowser-productsTable-inTheBagTick {
+  background-image: url(icons_red/tick.png)
+}
+div.ecwid-productBrowser-details-outOfStockLabel-allInBag,
+div.ecwid-productBrowser-productsTable div.ecwid-productBrowser-sku {
+  color: #78654a;
+}
+div.ecwid-productBrowser-productsTable-addToBagLink {
+  color: #1C8CB5;
+}
+
+.ecwid-no-touch td.ecwid-productBrowser-cart-itemsTable-cell-selected,
+.ecwid-no-touch tr.ecwid-productBrowser-cart-itemsTable-row-selected {
+  background-color: #f0ead8;
+}
+
+div.ecwid-productBrowser-cart-estimationNote span {
+  color:#1C8CB5;
+}
+
+div.ecwid-productBrowser-cart-asterisk {
+  -x-system-font:none;
+  color:#1C8CB5;
+}
+
+div.ecwid-productBrowser-cart-chooseLocationPopup label.ecwid-fieldLabel,
+div.ecwid-productBrowser-cart-chooseLocationPopup-deliveryMethodLabel {
+  color: #47372b;
+}
+
+div.ecwid-PaymentMethodsBlock-PaymentOption label,
+span.ecwid-shippingOption label,
+div.ecwid-productBrowser-cart-chooseLocationPopup span.ecwid-shippingOption {
+  color: #433b35;
+}
+
+/* Discount Coupon box */
+div.ecwid-productBrowser-cart-EnterCouponBox {
+  background-color: #f0ead8;
+  border: 1px solid #c7c7c7;
+}
+div.ecwid-productBrowser-cart-EnterCouponBox .gwt-Label {
+  color: #4b4b4b;
+}
+
+.ecwid-EcwidHintingLink {
+  color: #1C8CB5;
+}
+
+.ecwid-EcwidHintingLink-Popup {
+  border: 1px solid #c7c7c7;
+  color: #4b4b4b;
+}
+
+div.ecwid-Checkout-ShippingAddress-top {
+  background-color:#cebe8e;
+}
+
+div.ecwid-AddressForm-secureLockIcon {
+  background:transparent url(icons_red/lock.gif)
+}
+
+div.ecwid-Checkout-BreadCrumbs-link {
+  color: #897555;
+}
+div.ecwid-Checkout-BreadCrumbs-link-current {
+  color: #8e9800;
+  border-bottom-color: #8e9800;
+}
+div.ecwid-Checkout-BreadCrumbs-link-visited {
+  color: #1C8CB5;
+}
+div.ecwid-Checkout-BreadCrumbs-point {
+  background-image: url(icons_red/checkout_point_not_visited.png);
+}
+div.ecwid-Checkout-BreadCrumbs-point-visited {
+  background-image: url(icons_red/checkout_point_visited.png);
+}
+div.ecwid-Checkout-BreadCrumbs-point-current {
+  background-image: url(icons_red/checkout_point_current.png);
+}
+div.ecwid-Checkout-BreadCrumbs-section {
+  background-image: url(icons_red/checkout_section_not_visited.gif);
+}
+div.ecwid-Checkout-BreadCrumbs-section-visited {
+  background-image: url(icons_red/checkout_section_visited.gif);
+}
+.ecwid-Checkout-BreadCrumbs-Vertical div.ecwid-Checkout-BreadCrumbs-section {
+  background: #cbb694;
+}
+.ecwid-Checkout-BreadCrumbs-Vertical div.ecwid-Checkout-BreadCrumbs-section-visited {
+  background: #897555;
+}
+div.ecwid-AddressBook-item {
+  background:#f0ead8 none repeat scroll 0 0;
+}
+div.ecwid-AddressBook-block {
+  border:1px solid #cbb694;
+}
+div.ecwid-AddressBook-addButton {
+  background: transparent url(icons_red/addNewAddress.gif) no-repeat scroll 0 0;
+  color: #b59766;
+}
+div.ecwid-Account-AddressBook div.ecwid-Account-ContinueShoppingButtonContainer {
+  border-top:1px solid #cbb694;
+}
+
+td.ecwid-PseudoButton-left {
+  background: transparent url(icons_red/pseudo_button_left.gif) no-repeat 1px 0;
+}
+td.ecwid-PseudoButton-center {
+  background: transparent url(icons_red/pseudo_button_center.gif) repeat-x;
+}
+td.ecwid-PseudoButton-right {
+  background: transparent url(icons_red/pseudo_button_right.gif) no-repeat -1px 0;
+}
+td.ecwid-PseudoButton-center div.gwt-Label,
+div.ecwid-PseudoButton {
+  color: #ffffff;
+}
+
+div.ecwid-AddressForm-SSLencryptedPopup {
+  background: transparent url(icons_red/SSLencrypted.png) no-repeat;
+}
+td.ecwid-Invoice-edgeCell, td.ecwid-Invoice-cell {
+  background-color:#f0ead8;
+}
+div.ecwid-Invoice-cell-title {
+  background-color:#b59766;
+}
+td.ecwid-Invoice-Header-OrderId span,
+td.ecwid-Invoice-Header-OrderId-long span,
+td.ecwid-Invoice-Header-OrderId-very-long span,
+td.ecwid-OrdersList-OrderBox-header-orderdescr span {
+  color:#1C8CB5;
+}
+
+div.ecwid-Invoice-productName {
+  -x-system-font:none;
+  color:#9f3b3f;
+}
+
+div.ecwid-Invoice-productName a, div.ecwid-Invoice-productName a:active, div.ecwid-Invoice-productName a:visited {
+  -x-system-font:none;
+  color:#1C8CB5;
+}
+td.ecwid-Invoice-footer-orderConfirmation-text a, td.ecwid-Invoice-footer-orderConfirmation-text a:active, td.ecwid-Invoice-footer-orderConfirmation-text a:visited {
+  -x-system-font:none;
+  color:#1C8CB5;
+}
+td.ecwid-OrdersList-OrderBox-header-orderdescr {
+  color:#000000;
+}
+td.ecwid-OrdersList-OrderBox-header {
+  background-color:#f0ead8;
+}
+td.ecwid-OrdersList-OrderBox-price,
+td.ecwid-OrdersList-OrderBox-totals-price {
+  color:#9f3b3f;
+}
+
+div.ecwid-pager span.ecwid-pager-link-enabled {
+  color:#1C8CB5;
+}
+
+div.ecwid-pager span.ecwid-pager-link-disabled {
+  color:#1C8CB5;
+}
+
+/* The message box displayed when the storefront is closed */
+div.ecwid-maintenance-popup {
+  border-color: #f0ead8;
+  background-color: #ffffff;
+  color: #413124;
+}
+div.ecwid-maintenance-staff-message {
+  color: #70614c;
+}
+
+div.ecwid-DownloadError-head {
+  color: #413124;
+}
+div.ecwid-DownloadError-content {
+  color: #000000;
+}
+
+div.ecwid-gallery-imageDescription {
+  text-align: center;
+  font: normal 14px helvetica, arial, verdana, sans-serif;
+  color: #78654a;
+}
+
+div.ecwid-gallery-imageDescription-top {
+  padding: 40px 0 30px 0;
+  display:none;
+}
+
+div.ecwid-gallery-imageDescription-bottom {
+  padding: 30px 0 40px 0;
+  display: block;
+}
+
+div.ecwid-EgoodsComponent-downloadLabel {
+  color: #1C8CB5;
+}
+span.ecwid-EgoodsComponent-filesize, span.ecwid-EgoodsComponent-expires {
+  color: #4b4b4b;
+}
+span.ecwid-EgoodsComponent-expires span {
+  color: #219417;
+}
+div.ecwid-EgoodsComponent a, div.ecwid-EgoodsComponent a:active, div.ecwid-EgoodsComponent a:visited {
+  color: #1C8CB5;
+}
+tr.ecwid-EgoodsComponent-egoodRow-expired div.ecwid-EgoodsComponent-description,
+tr.ecwid-EgoodsComponent-egoodRow-expired a, tr.ecwid-EgoodsComponent-egoodRow-expired a:active, tr.ecwid-EgoodsComponent-egoodRow-expired a:visited {
+  color: #4b4b4b;
+  cursor: auto;
+}
+
+div.ecwid-ServiceMessage-container div.ecwid-ShadowedPopupPanel-content,
+div.ecwid-ShadowedPopupPanel-content {
+  background-color: #faf3e8;
+}
+button.ecwid-ServiceMessage-closeButton {
+  background-image: url(icons_red/connection-error-close.gif);
+}
+
+div.ecwid-DateRangePopup table.ecwid-DateRangePopup-PresetsPanel a,
+div.ecwid-DateRangePopup table.ecwid-DateRangePopup-PresetsPanel a:visited,
+div.ecwid-DateRangePopup table.ecwid-DateRangePopup-PresetsPanel a:active {
+  display: block;
+  color: #1C8CB5;
+  margin: 0 15px 5px;
+}
+
+/* iDEAL Mollie Banks */
+div.ecwid-PaymentMethodExtraDetailsBlockIDEALBanks-panel {
+  background-color: #e2d7b7;
+}
+div.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksLbl-over {
+  color: #4d5208;
+}
+img.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksImg-over {
+  border: 1px solid #1C8CB5;
+}
+img.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksImg-selected {
+  border: 4px solid #1C8CB5;
+}
+/* --- iDEAL Mollie Banks --- */
+
+/* Share buttons */
+
+.ecwid-productBrowser-details-rightPanel div.ecwid-productBrowser-sharePanel-header {
+  background-color: #e8e2cf;
+}
+
+.ecwid-productBrowser-details-rightPanel .ecwid-productBrowser-sharePanel-icon {
+  background: url(icons_red/share_ico.png) no-repeat left center;
+}
+
+.ecwid-productBrowser-details-rightPanel .ecwid-productBrowser-sharePanel-buttonsContainer {
+  border: #e8e2cf 1px solid;
+}
+
+div.ecwid-ppReview-block {
+  background-color: #f0ead8;
+}
+
+div.ecwid-ppReview-totals-block, div.ecwid-ppReview-sidebar-hor div.ecwid-ppReview-block {
+  border-top: 4px solid #b59766;
+}
+
+div.ecwid-productBrowser-extraField-value-center, div.ecwid-productBrowser-extraField-value-side {
+  color: #433b35;
+}
+
+/* Share purchase */
+
+div.ecwid-productBrowser-head-share-purchase {
+  color:#1C8CB5;
+}
+
+div.ecwid-MaskableWidget .ecwid-mask {
+  background-color: #f0ead8;
+}
+
+/*****Ask for Advice*****/
+.ecwid .ecwid-productBrowser-ask-advice-panel {
+  background: #e8e2cf;
+}
+
+.ecwid .ecwid-productBrowser-ask-advice-panel .ecwid-productBrowser-ask-advice-panel-icon {
+  background: #e8e2cf url(icons_red/lamp.png) no-repeat left center;
+}
+
+.ecwid .ecwid-productBrowser-ask-advice-panel a {
+  text-decoration: none;
+}
+
+.ecwid .ecwid-ProductDetails-gray-panel-bottom {
+  background: #e8e2cf;
+}
+
+.PlainButton {
+  color: #78654a;
+}
+
+table.PlainButton-PrintInvoice + table table div.PlainButton-noIcon{
+  background-color: #ff0000 !important;
+}
+
+.PlainButton-PrintInvoice {
+  background:transparent url(icons_red/back_normal.gif) repeat-x scroll 0 0;
+}
+
+.PlainButton-PrintInvoice .PlainMenuButton-arrow img{
+  background: #eecca4 url(icons/arrow-south.gif) no-repeat center center !important;
+}
+
+div.ecwid-amexPaymentForm {
+  background-color: #f0ead8;
+}
+
+div.ecwid-extForm-errorContainer {
+  background: #efc2b0;
+  color: #7f0000;
+}
+
+div.ecwid-Account .ecwid-AccountSettings .membership {
+  background: #e2d7b7;
+}
+
+.ecwid-responsive div.ecwid-PseudoButton {
+  border-color: #b59766;
+  background: #b59766; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b59766 0%, #8d692d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b59766), color-stop(100%,#8d692d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #b59766 0%,#8d692d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #b59766 0%,#8d692d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #b59766 0%,#8d692d 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #b59766 0%,#8d692d 100%); /* W3C */
+}
